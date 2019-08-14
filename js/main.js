@@ -17,6 +17,13 @@ initCall();
     });
 
 
+    $(".workshop_list_link").hover(function (e) {
+        $(this).prev().css("padding-left",".5rem");
+    },function(){
+        $(this).prev().css("padding-left","0");
+    });
+
+
 
 
 

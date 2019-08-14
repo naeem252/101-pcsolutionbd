@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <!--    font awsome-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -134,7 +133,7 @@
 
 
 
-<nav class="navigation">
+<nav class="navigation sticky-top">
     <div class="container">
         <div class="row">
             <div class="col-md-9">
@@ -382,11 +381,15 @@
 
             <div class="col-md-4 mx-auto">
                 <h2 class="section_heading text-uppercase">
-                    <span class="section_heading_top text-uppercase">reasons to select us</span>
-                    why <span class="section_heading_sub-s">chose us</span>
+                    <span class="section_heading_top self_heading text-uppercase">reasons to select us</span>
+                    why <span class="section_heading_sub-s self_heading_sub">chose us</span>
                 </h2>
             </div>
         </div>
+    </div>
+
+    <div class="container">
+        <hr>
     </div>
     <div class="container">
         <div class="row">
@@ -455,9 +458,9 @@
                         voluptas voluptate voluptatem voluptates!
                     </p>
                     <div class="speaker d-flex justify-content-center align-items-center">
-                        <img src="photos/self_intro_speaker.jpg" alt="" width="100">
+                        <img src="photos/self_intro_speaker.jpg" alt="" width="100" class="speaker_img">
                         <h4 class="speaker_name">
-                            JOHN DOE
+                            <span>JOHN DOE</span>
                             <span class="bio small">School Principle</span>
                         </h4>
                     </div>
@@ -500,7 +503,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 d-flex justify-content-between align-items-center">
-                <h1 class="section_heading">
+                <h1 class="section_heading staff_heading">
                     <span class="section_heading_top d-block">
                         reasons to select us
                     </span>
@@ -510,21 +513,21 @@
                     </span>
                     </span>
                 </h1>
-                <a href="#" class="section_heading_btn">
+                <a href="#" class="section_heading_btn staff_heading_btn">
                     more technicians
                 </a>
             </div>
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-6 d-flex">
+            <div class="col-md-6 staff_div d-flex">
                 <div class="staff">
                     <img src="photos/staff-1.png" alt="" class="staff_img">
                     <div class="staff_bio d-flex justify-content-center align-items-center flex-column">
                         <h6 class="staff_name">
                             Bonita JOhn Doe
                         </h6>
-                        <span class="small">jr.technitian</span>
+                        <span class="small staff_name_sub">jr.technitian</span>
                     </div>
                 </div>
                 <div class="staff">
@@ -533,11 +536,11 @@
                         <h6 class="staff_name">
                             Bonita JOhn Doe
                         </h6>
-                        <span class="small">jr.technitian</span>
+                        <span class="small staff_name_sub">jr.technitian</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 staff_work_div">
                 <div class="staff_work d-flex">
                     <div class="staff_work-1 d-flex justify-content-center align-items-center flex-column">
                         <i class="fas fa-flask staff_work_icon"></i>
@@ -548,7 +551,7 @@
                             Weekly Repairs
                         </span>
                     </div>
-                    <div class="staff_work-2 d-flex justify-content-center align-items-center flex-column">
+                    <div class="staff_work-1 d-flex justify-content-center align-items-center flex-column">
                         <i class="fas fa-rocket staff_work_icon"></i>
                         <span class="staff_work_number">
                             500+
@@ -559,7 +562,7 @@
                     </div>
                 </div>
                 <div class="staff_work d-flex">
-                    <div class="staff_work-2 d-flex justify-content-center align-items-center flex-column">
+                    <div class="staff_work-1 d-flex justify-content-center align-items-center flex-column">
                         <i class="fas fa-user-friends staff_work_icon"></i>
                         <span class="staff_work_number">
                             100+
@@ -568,7 +571,7 @@
                             Cooperative Staff
                         </span>
                     </div>
-                    <div class="staff_work-4 d-flex justify-content-center align-items-center flex-column">
+                    <div class="staff_work-1 d-flex justify-content-center align-items-center flex-column">
                         <i class="fas fa-trophy staff_work_icon"></i>
                         <span class="staff_work_number">
                             150+
@@ -587,15 +590,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 d-flex justify-content-between align-items-center">
-                <h1 class="section_heading">
-                   <span class="section_heading_top">
+                <h1 class="section_heading product_heading">
+                   <span class="section_heading_top product_heading_top">
                        Reasons to select us
                    </span>
-                    <span class="section_heading_sub">
-                       Our <span class="section_heading_sub_s">recent products</span>
+                    <span class="section_heading_sub product_heading_sub">
+                       Our <span class="section_heading_sub-s product_heading_sub-s">recent products</span>
                    </span>
                 </h1>
-                <a href="#" class="section_heading_btn">
+                <a href="#" class="section_heading_btn product_heading_btn">
                     more products
                 </a>
             </div>
@@ -646,15 +649,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 d-flex justify-content-between align-items-center">
-                <h1 class="section_heading">
-                   <span class="section_heading_top">
+                <h1 class="section_heading recent_post_heading">
+                   <span class="section_heading_top recent_post_heading_top">
                        Reasons to select us
                    </span>
-                    <span class="section_heading_sub">
-                       Our <span class="section_heading_sub_s">recent Posts</span>
+                    <span class="section_heading_sub recent_post_heading_sub">
+                       Our <span class="section_heading_sub_s recent_post_heading_sub_s">recent Posts</span>
                    </span>
                 </h1>
-                <a href="#" class="section_heading_btn">
+                <a href="#" class="section_heading_btn recent_post_btn">
                     more posts
                 </a>
             </div>
@@ -667,7 +670,7 @@
                     <h6 class="post_title">Great Computer Service</h6>
                     <div class="post_footer d-flex justify-content-between align-items-center">
                         <span class="post_tag">PC SoLUTIONS</span>
-                        <span class="views"><i class="fas fa-eye"></i>14</span>
+                        <span class="views"><i class="fas fa-eye views_icon"></i>14</span>
                     </div>
                 </div>
             </div>
@@ -681,7 +684,7 @@
                         <span class="post_tag">
                             system solutions
                         </span>
-                        <span class="views"><i class="fas fa-eye"></i>26</span>
+                        <span class="views"><i class="fas fa-eye views_icon"></i>26</span>
                     </div>
                 </div>
             </div>
@@ -691,7 +694,7 @@
                     <h6 class="post_title">How to clean up motherboard</h6>
                     <div class="post_footer d-flex justify-content-between align-items-center">
                         <span class="post_tag">Windows issues</span>
-                        <span class="views"><i class="fas fa-eye"></i>39</span>
+                        <span class="views"><i class="fas fa-eye views_icon"></i>39</span>
                     </div>
                 </div>
             </div>
@@ -721,7 +724,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="before_footer_logo">
-                    <img src="photos/logo.png" width="100" alt="" class="before_footer_img">
+                    <img src="photos/logo.png" width="100" alt="" class="before_footer_logo_img">
                 </div>
                 <p class="before_footer-content">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deserunt eos est excepturi
@@ -738,7 +741,7 @@
                             <i class="fas fa-phone"></i> <span class="address-s">Phone:</span> 01787455656
                         </li>
                         <li class="address_list-item">
-                            <i class="far fa-envelope"></i> <span class="address-s">Email:</span>
+                            <i class="far fa-envelope address_list_icon"></i> <span class="address-s">Email:</span>
                             naeemhasan252@gmail.com
                         </li>
                     </ul>
@@ -746,13 +749,13 @@
                 <div class="before_footer-social">
                     <ul class="list-unstyled social_list d-flex">
                         <li class="social_list-item mr-3">
-                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f social_list_icon"></i>
                         </li>
                         <li class="social_list-item  mr-3">
-                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter social_list_icon"></i>
                         </li>
                         <li class="social_list-item  mr-3">
-                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-instagram social_list_icon"></i>
                         </li>
                     </ul>
                 </div>
@@ -766,19 +769,19 @@
                         <div class="col-md-6">
                             <ul class="list-unstyled workshop_list">
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> Home page
+                                    <i class="fas fa-long-arrow-alt-right"></i> <a href="#" class="workshop_list_link">Home page</a>
                                 </li>
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> About Us
+                                    <i class="fas fa-long-arrow-alt-right"></i> <a href="#" class="workshop_list_link">About Us</a>
                                 </li>
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> Your Case Status
+                                    <i class="fas fa-long-arrow-alt-right"></i> <a href="#" class="workshop_list_link"> Your Case Status</a>
                                 </li>
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> Why Chose Us?
+                                    <i class="fas fa-long-arrow-alt-right"></i> <a href="#" class="workshop_list_link"> Why Chose Us?</a>
                                 </li>
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> Amazing Services
+                                    <i class="fas fa-long-arrow-alt-right"></i> <a href="#" class="workshop_list_link"> Amazing Services</a>
                                 </li>
 
                             </ul>
@@ -786,19 +789,19 @@
                         <div class="col-md-6">
                             <ul class="list-unstyled workshop_list">
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> Laptop Repair
+                                    <i class="fas fa-long-arrow-alt-right"></i><a href="#" class="workshop_list_link">  Laptop Repair</a>
                                 </li>
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> Keyboard & Mouse
+                                    <i class="fas fa-long-arrow-alt-right"></i><a href="#" class="workshop_list_link"> Keyboard & Mouse</a>
                                 </li>
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> Mac/Windown
+                                    <i class="fas fa-long-arrow-alt-right"></i><a href="#" class="workshop_list_link">  Mac/Windown</a>
                                 </li>
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> RAM increment
+                                    <i class="fas fa-long-arrow-alt-right"></i><a href="#" class="workshop_list_link">  RAM increment</a>
                                 </li>
                                 <li class="workshop_list-item">
-                                    <i class="fas fa-long-arrow-alt-right"></i> 4k Monitors
+                                    <i class="fas fa-long-arrow-alt-right"></i><a href="#" class="workshop_list_link"> 4k Monitors</a>
                                 </li>
 
                             </ul>
@@ -811,36 +814,35 @@
                     <h6 class="before_footer-latest_post--heading">
                         The Latest Posts
                     </h6>
-                    <div class="before_footer-latest_post-content d-flex flex-column justify-content-center align-items-center">
+                    <div class="before_footer-latest_post-content d-flex">
                         <img src="photos/post_img1.png" width="100" class="before_footer_post_img" alt="">
                         <div class="before_footer_post_content">
-                            <p>
+                            <p class="before_footer_post_content_para">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex fugiat iure sunt. Corporis,
                                 facere, numquam?
                             </p>
-                            <span class="before_footer_post_date">
-                                01 October 2018
+                            <span class="before_footer_post_date d-flex justify-content-between">
+                                <span>01 October 2018</span> <span><a href="#" class="before_footer_post_read_more_btn">Read More ></a></span>
                             </span>
                         </div>
                     </div>
-                    <div class="before_footer-latest_post-content d-flex flex-column justify-content-center align-items-center">
+                    <div class="before_footer-latest_post-content d-flex ">
                         <img src="photos/post_img2.png" width="100" class="before_footer_post_img" alt="">
                         <div class="before_footer_post_content">
-                            <p>
+                            <p class="before_footer_post_content_para">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex fugiat iure sunt. Corporis,
                                 facere, numquam?
                             </p>
-                            <span class="before_footer_post_date">
-                                01 October 2018
+                            <span class="before_footer_post_date d-flex justify-content-between">
+                                 <span>01 October 2018</span> <span><a href="#" class="before_footer_post_read_more_btn">Read More</a></span>
                             </span>
                         </div>
                     </div>
-                    <div class="before_footer-latest_post-content"></div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+
 <hr>
 <footer class="footer">
     <div class="container">
@@ -850,7 +852,7 @@
                     &copy; Copyringt 2018 All right reserved.Powered by <span
                         class="footer_content_s">Webful Creations</span>
                 </p>
-                <ul class="list-unstyled footer_link d-flex">
+                <ul class="list-unstyled footer_list d-flex">
                     <li class="footer_list_item">
                         <a href="#" class="footer_list_link">
                             Home
@@ -881,11 +883,11 @@
         </div>
     </div>
 </footer>
+</section>
 
 
 <!--js files-->
 <script src="js/jquery.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="js/main.js"></script>
