@@ -1,5 +1,13 @@
 $(document).ready(function(){
 initCall();
+    var slideUp = {
+        distance: '10rem',
+        origin: 'bottom',
+        opacity: 0,
+        duration:1000,
+        reset:true
+    };
+    ScrollReveal().reveal('.scrollReavel',slideUp);
 
 
     $('.showcase').slick({
@@ -21,6 +29,27 @@ initCall();
         $(this).prev().css("padding-left",".5rem");
     },function(){
         $(this).prev().css("padding-left","0");
+    });
+
+    $(".navigation_icon_img").click(function () {
+        $(this).fadeOut();
+        $(".navigation_list_close").fadeIn();
+        $(".navigation_list").css({
+            "display":"flex"
+        }).animate({
+            "opacity":"0.9"
+        },500);
+    });
+    $(".navigation_list_close_icon").click(function () {
+        $(".navigation_list").animate({
+            "opacity":"0"
+        },500);
+        setTimeout(function(){
+            $(".navigation_list").css("display","none");
+        },500);
+        $(".navigation_icon_img").fadeIn("500");
+        $(".navigation_list_close").fadeOut();
+
     });
 
 
