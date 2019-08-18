@@ -1,0 +1,108 @@
+.blog_heading{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../photos/blog_banner.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 9rem 0;
+}
+.blog_heading_text{
+    color: #fff;
+    font-size: 6rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.breadcrumb_blog{
+    padding: 2rem 0;
+    border-bottom: 2px solid #aaaaaa61;
+    margin-bottom: 4rem;
+}
+.breadcrumb_content{}
+.breadcrumb_content_left{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.breadcrumb_content_right{}
+.breadcrumb_right_list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.right_tag{
+    margin-right: 1.3rem;
+    font-size: 1.3rem;
+}
+.breadcrumb_list_item{
+    margin-right: 1rem;
+}
+.breadcrumb_list_link{
+    font-size: 1.3rem;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    background: #064274;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.4s ease-out;
+}
+.breadcrumb_list_link:hover{
+    background-color: #0782cb;
+}
+.blogs{}
+.blog{
+    transition: 0.4s ease-out;
+    box-shadow: 2px 2px 15px #aaa;
+    background: #aaaaaa1a;
+    padding: 0rem;
+    margin-bottom: 3rem;
+}
+.blog:hover{
+    transform: translateY(-10px);
+}
+.blog_all_content{
+    padding: 2rem;
+}
+.blog_img_box{
+    height: 20rem;
+}
+.blog_img{
+    width: 100%;
+    height: 100%;
+}
+.blog_tag{
+    margin: 1rem 0;
+    display: inline-block;
+    color: #444444bf;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.blog_title{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.blog_content{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.blog_footer{
+    color: #444444e3;
+    font-size: 1.2rem;
+}
+.blog_date{
+    display: inline-block;
+    margin-right: 2rem;
+}
+.blog_comment_count{}
+.navigation.for_blogs{
+    top: 7.5rem;
+}
+
+@media all and (max-width: 736px) {
+    .navigation.for_blogs{
+        top:0;
+    }
+}

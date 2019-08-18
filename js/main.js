@@ -9,6 +9,10 @@ initCall();
     };
     ScrollReveal().reveal('.scrollReavel',slideUp);
 
+    //map
+
+
+
 
     $('.showcase').slick({
         dots: true,
